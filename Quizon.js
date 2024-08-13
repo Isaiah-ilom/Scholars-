@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function startTimer(duration, display) {
     let timer = duration, minutes, seconds;
     timerInterval = setInterval(() => {
-      minutes = parseInt(timer / 60, 10);
+      minutes = parseInt(timer / 300, 10);
       seconds = parseInt(timer % 60, 10);
 
       minutes = minutes < 10 ? "0" + minutes : minutes;
