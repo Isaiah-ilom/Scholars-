@@ -1,6 +1,6 @@
 <html>
 <body>
-<img src ="https://tinyurl.com/2abu3zxs" width="30px" alt="Raphael scholar game">
+<img src ="https://tinyurl.com/2abu3zxs" width="" alt="Raphael scholar game">
 </body>
 </html>
 
