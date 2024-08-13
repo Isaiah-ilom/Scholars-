@@ -1,7 +1,1 @@
-{
-  "name": "scholars",
-  "scripts": {
-    "build": "babel src -d lib",
-    "prebuild": "jest"
-  }
-}
+
