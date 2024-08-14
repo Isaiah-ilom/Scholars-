@@ -170,10 +170,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  darkModeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-  });
-
   document.getElementById('logButton').addEventListener('click', login);
   document.getElementById('startButton').addEventListener('click', startQuiz);
   document.querySelector('button[onclick="submitAnswers()"]').addEventListener('click', submitAnswers);
