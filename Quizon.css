@@ -322,8 +322,6 @@ span:hover,ion-icon:hover {
 
 .question-container {
     background: url('https://tinyurl.com/2aeoqlt8') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   padding: 20px;
