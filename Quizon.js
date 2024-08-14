@@ -35,6 +35,38 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Please enter valid credentials');
     }
   }
+  document.getElementById('signupForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    let fullName = document.getElementById('fullName').value;
+    let email = document.getElementById('signupEmail').value;
+    let password = document.getElementById('signupPassword').value;
+    let phoneNumber = document.getElementById('phoneNumber').value;
+    let address = document.getElementById('address').value;
+
+    if (fullName && email && password && phoneNumber && address) {
+      // Hide the signup form and show the welcome message
+      signupForm.style.display = 'none';
+      displayWelcomeMessage();
+    } else {
+      alert('Please fill in all fields.');
+    }
+  });
+
+  function displayWelcomeMessage() {
+    welcomeMessage.style.display = 'block';
+    startButton.style.display = 'block';
+  }
+
+  function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(String(email).toLowerCase());
+  }
+
+  function validatePhone(phone) {
+    const re = /^\d{11}$/;
+    return re.test(String(phone));
+  }
 
   function startQuiz() {
     welcomeMessage.style.display = 'none';
