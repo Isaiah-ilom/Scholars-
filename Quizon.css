@@ -303,7 +303,7 @@ span:hover,ion-icon:hover {
 }
 #englishTest {
   display: block;
-  background-image: url("https://spoo.me/hN9LBm");
+  background: url('https://tinyurl.com/2aeoqlt8') no-repeat center center fixed;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -321,6 +321,9 @@ span:hover,ion-icon:hover {
 }
 
 .question-container {
+    background: url('https://tinyurl.com/2aeoqlt8') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   padding: 20px;
@@ -328,6 +331,9 @@ span:hover,ion-icon:hover {
 }
 
 #englishTestForm {
+    background: url('https://tinyurl.com/2aeoqlt8') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
   display: flex;
   flex-direction: column;
 }
