@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/submit', async (req, res) => {
     const recaptchaResponse = req.body['g-recaptcha-response'];
-    const secretKey = '6LdKHiYqAAAAAPQb-dPirUGrS97RzfL1EEqnTf4r';
+    const secretKey = '6LcVnyYqAAAAAKVMcBBxaUydtuzTZORuxhPEwjhJ';
 
     const verificationURL = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${recaptchaResponse}`;
 
